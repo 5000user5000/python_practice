@@ -35,3 +35,4 @@ for word in word_count_list:
 
 # 關於讀檔和寫入 https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-bf0648108581
 # 讀檔路徑設定 https://medium.com/@PatHuang/%E5%88%9D%E5%AD%B8python%E6%89%8B%E8%A8%98-1-%E8%B3%87%E6%96%99%E5%89%8D%E8%99%95%E7%90%86-%E7%9B%B8%E5%B0%8D-%E7%B5%95%E5%B0%8D%E8%B7%AF%E5%BE%91-%E8%B3%87%E6%96%99%E9%81%B8%E5%8F%96-1a081fc38e56
+# 難度偏高一點,有一些資料結構和讀寫外部檔案
