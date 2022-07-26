@@ -29,7 +29,7 @@ try:
         print("WatchingDog 尚未啟動")
     
     #如果要檢查多個程序,只要複製上面貼上,修改部分地方就可,不會衝突 
-        
+         
     print("==========") #分隔線
     #檢查conf 的 ip 正確與否 
     stdin, stdout, stderr = client.exec_command('cat /opt/xxx/yyy.conf | grep "Wifi" ') #從某個路徑裡的conf裡只抓有Wifi屬性(也可其他)的地方
