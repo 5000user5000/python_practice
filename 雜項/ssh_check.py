@@ -28,11 +28,7 @@ try:
     else:
         print("WatchingDog 尚未啟動")
     
-    stdin, stdout, stderr = client.exec_command('ps aux | grep "[E]very process you want to try"') #你可以用其他程序看看 (ps aux 會印出所有的,你可挑幾個用)
-    if(len( stdout.readlines() ) >=1):
-        print(".... 已啟動了")
-    else:
-        print(".... 尚未啟動")
+    #如果要檢查多個程序,只要複製上面貼上,修改部分地方就可,不會衝突 
         
     print("==========") #分隔線
     #檢查conf 的 ip 正確與否 
