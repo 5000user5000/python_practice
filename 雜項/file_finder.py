@@ -6,11 +6,18 @@ from datetime import datetime
 """
 執行方法範例:
 python ./file_finder.py 7 D:/
-意思是會print D槽下所有7天內有做修改的檔案
+意思是會print D槽下所有7天內有做修改的檔案。
 
-目的是由於我每週得定期上傳某檔案夾下的有做變更的文件去做備份
+打包成exe:
+terminal上輸入
+pyinstaller --onefile file_finder.py
+這樣就會打包成exe檔，可以直接點擊執行，如果被防毒軟體抓了，可以加入白名單。
+記得要先寫死時間和讀取的檔案路徑。例如:getFile(7,"D:\NOTE")，並把 sys.argv的部分註解掉。
+
+User Story:
+身為一個時常寫文件的人，我每週得定期上傳某檔案夾下的有做變更的文件去做備份，
 檔案一多,就會需要有這樣的程式去做搜尋。
-之後再補自動上傳到Google Drive的代碼
+之後再補自動上傳到Google Drive的代碼。不過變動文件不多的話，還是直接手動上傳就好。
 """
 
 
@@ -34,4 +41,5 @@ def getFile(time_before,path):
 
 if __name__ == '__main__':
     getFile(time_before,path)
+    waitKey = input("Press any key to exit...")
 
