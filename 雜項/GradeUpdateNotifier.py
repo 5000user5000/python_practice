@@ -12,7 +12,7 @@ email_config = {
     'smtp_server': 'smtp.gmail.com',
     'smtp_port': 587,
     'sender_email': 'xxx@gmail.com',
-    'sender_password': 'gmail 應用程式的˙email',
+    'sender_password': 'gmail 應用程式的密碼，要先二階段認證',
     'recipient_email': '收件者的email'
 }
 
